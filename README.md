@@ -7,6 +7,8 @@ At the moment, adding the ARkit morph targets inside Character Creator 4.2 force
 Running this script takes a CC4.2 character with wrinkles that has been imported into Blender and changes the names of the Blend Shapes (morph targets) to the standard ARkit naming convention. It will rename shapes, combines the cheek puff and inner brow to get the single shape from those and put a keyframe on every shape (needed to copy animation like Rokoko face).  
 ![image](https://user-images.githubusercontent.com/7697182/235367036-5193c79e-3fa9-4e97-8053-ee1424ce6867.png)
 
+Make sure you export from CC4.2 with Mouth Open as Morph!!
+
 Combine Facial hair to the body mesh before running script CTRL+j in Blender.
 
 
