@@ -31,8 +31,8 @@ name_mapping = {
     "Mouth_Pucker": "mouthPucker",
     "Mouth_L": "mouthLeft",
     "Mouth_R": "mouthRight",
-    "Mouth_Roll_In_Upper": "mouthRollUpper",
-    "Mouth_Roll_In_Lower": "mouthRollLower",
+    #"Mouth_Roll_In_Upper": "mouthRollUpper",
+    #"Mouth_Roll_In_Lower": "mouthRollLower",
     "Mouth_Shrug_Upper": "mouthShrugUpper",
     "Mouth_Shrug_Lower": "mouthShrugLower",
     "Mouth_Close": "mouthClose",
@@ -93,6 +93,23 @@ create_shape_key(obj, 'cheekPuff', [cheek_puff_left, cheek_puff_right])
 inner_brow_left = obj.data.shape_keys.key_blocks.get('Brow_Raise_Inner_L')
 inner_brow_right = obj.data.shape_keys.key_blocks.get('Brow_Raise_Inner_R')
 create_shape_key(obj, 'browInnerUp', [inner_brow_left, inner_brow_right])
+
+# Mouth Roll upper shape keys
+mouth_roll_up_left = obj.data.shape_keys.key_blocks.get('Mouth_Roll_In_Upper_L')
+mouth_roll_up_right = obj.data.shape_keys.key_blocks.get('Mouth_Roll_In_Upper_R')
+create_shape_key(obj, 'mouthRollUpper', [mouth_roll_up_left, mouth_roll_up_right])
+
+# Mouth Roll lower shape keys
+mouth_roll_down_left = obj.data.shape_keys.key_blocks.get('Mouth_Roll_In_Lower_L')
+mouth_roll_down_right = obj.data.shape_keys.key_blocks.get('Mouth_Roll_In_Lower_R')
+create_shape_key(obj, 'mouthRollLower', [mouth_roll_down_left, mouth_roll_down_right])
+
+# Mouth Funnel shape keys
+mouth_funnel_up_left = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Up_L')
+mouth_funnel_up_right = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Up_R')
+mouth_funnel_down_left = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Down_L')
+mouth_funnel_down_right = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Down_R')
+create_shape_key(obj, 'mouthFunnel', [mouth_funnel_up_left, mouth_funnel_up_right, mouth_funnel_down_left, mouth_funnel_down_right])
 
 # Now set a keyframe on every shape key
 
