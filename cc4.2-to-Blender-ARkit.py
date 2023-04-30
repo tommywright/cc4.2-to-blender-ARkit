@@ -111,6 +111,13 @@ mouth_funnel_down_left = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Down_L
 mouth_funnel_down_right = obj.data.shape_keys.key_blocks.get('Mouth_Funnel_Down_R')
 create_shape_key(obj, 'mouthFunnel', [mouth_funnel_up_left, mouth_funnel_up_right, mouth_funnel_down_left, mouth_funnel_down_right])
 
+# Mouth Pucker shape keys
+mouth_pucker_up_left = obj.data.shape_keys.key_blocks.get('Mouth_Pucker_Up_L')
+mouth_pucker_up_right = obj.data.shape_keys.key_blocks.get('Mouth_Pucker_Up_R')
+mouth_pucker_down_left = obj.data.shape_keys.key_blocks.get('Mouth_Pucker_Down_L')
+mouth_pucker_down_right = obj.data.shape_keys.key_blocks.get('Mouth_Pucker_Down_R')
+create_shape_key(obj, 'mouthPucker', [mouth_pucker_up_left, mouth_pucker_up_right, mouth_pucker_down_left, mouth_pucker_down_right])
+
 # Now set a keyframe on every shape key
 
 frames = bpy.context.scene.frame_end + 1
