@@ -9,8 +9,11 @@ Running this script takes a CC4.2 character with wrinkles that has been imported
 
 Combine Facial hair to the body mesh before running script CTRL+j in Blender.
 
+
 Install:
-Select the Scripting tab at the top of Blender's screen. Drag and drop the .py file into the text feild and hit the "Run" arrow.
+
+With your character body mesh selected, select the Scripting tab at the top of Blender's screen. Drag and drop the .py file into the text feild and hit the "Run" arrow.
+
 
 Afterrunning the script, you will need to manually change the Driver names that use browInnerUp to get the forehead wrinkle as Icouldn't figure out how to do that in Python code.
 ![image](https://user-images.githubusercontent.com/7697182/235366984-03f0f7b4-901a-41f1-a012-46d7322474f5.png)
