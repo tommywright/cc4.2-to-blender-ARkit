@@ -9,7 +9,7 @@ Running this script takes a CC4.2 character with wrinkles that has been imported
 
 Make sure you export from CC4.2 with Mouth Open as Morph!!
 
-Combine Facial hair to the body mesh before running script CTRL+j in Blender.
+Combine Facial hair to the body mesh before running script. Either export that way from CC4.2 or use CTRL+j in Blender.
 
 
 Install:
